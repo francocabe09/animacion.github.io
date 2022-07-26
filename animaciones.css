@@ -1,0 +1,30 @@
+body{
+	background: lightblue;
+	height: 700px;
+padding: 40px 40px;	
+}
+.caja{
+	background: red;
+	height: 100px;
+	width: 100px;
+	animation-name: locura;
+	animation-duration: 1s;
+	position: relative;
+	animation-iteration-count: 10;
+	animation-direction: alternate-reverse;
+
+}
+
+@keyframes locura{
+0%{
+	position: relative;
+	left: 0px;
+background: #025;}
+
+50%{
+		background: red;}
+
+100%{
+	left: 80%;
+background: green;}
+	}
